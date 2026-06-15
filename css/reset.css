@@ -12,23 +12,15 @@
 }
 
 :root {
-  --color-background-dark: #1f2937;
-  --color-information-header-text: #1f2937;
-  --color-text-quote: #1f2937;
-
-  --color-hero-secondary-and-header-link: #e5e7eb;
-  --color-background-quote: #e5e7eb;
-
-  --color-cta-button: #3882f6;
-  --color-hero: #f9faf8;
+  --color-text: #1f2937;
+  --color-text-light: #e5e7eb;
+  --color-primary: #3882f6;
+  --color-background-light: #f9faf8;
 
   --size-hero: 4.8rem;
-
-  --size-information-header-text: 3.6rem;
-  --size-quote-text: 3.6rem;
-
-  --size-header-logo-text: 2.4rem;
-  --size-hero-secondary-and-header-link: 1.8rem;
+  --size-bigger: 3.6rem;
+  --size-big: 2.4rem;
+  --size-normal: 1.8rem;
 }
 
 *,
