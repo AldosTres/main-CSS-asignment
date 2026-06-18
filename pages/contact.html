@@ -31,7 +31,7 @@
       </nav>
     </header>
 
-    <main class="vertical-column sections-padding">
+    <main class="vertical-column sections-padding contact-page">
       <section class="hero-body">
         <div class="hero-body-content">
           <h1 class="hero-body-title">Get in Touch</h1>
@@ -84,6 +84,68 @@
             </address>
           </article>
         </div>
+      </section>
+
+      <section class="contact-form-section row-elements-equal-size">
+        <form class="contact-form">
+          <h2>Send us a message</h2>
+
+          <hgroup class="row-elements-equal-size">
+            <div class="input-with-label">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Your name"
+                required
+              />
+            </div>
+
+            <div class="input-with-label">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Your email"
+                required
+                required
+              />
+            </div>
+          </hgroup>
+
+          <div class="input-with-label">
+            <label for="subject">Subject</label>
+            <input
+              type="text"
+              name="subject"
+              id="subject"
+              placeholder="Subject"
+              required
+            />
+          </div>
+
+          <div class="input-with-label contact-form__message-wrapper">
+            <label for="message">Message</label>
+            <textarea
+              class="contact-form__message"
+              name="message"
+              id="message"
+              placeholder="Tell us how we can help..."
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn-primary">Send Message</button>
+        </form>
+
+        <picture>
+          <img
+            src="../images/contact-form.webp"
+            alt="Dance class ready to start"
+          />
+        </picture>
       </section>
     </main>
 

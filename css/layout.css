@@ -11,6 +11,9 @@
 
   gap: 10rem;
 }
+.vertical-column.contact-page {
+  gap: 3rem;
+}
 
 .sections-padding > section {
   padding-left: 8rem;
@@ -18,4 +21,16 @@
 }
 .sections-padding + footer {
   margin-top: 8rem;
+}
+
+.row-elements-equal-size {
+  display: flex;
+}
+.row-elements-equal-size > * {
+  max-width: 50%;
+}
+.row-elements-equal-size img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }

@@ -280,3 +280,39 @@
 
   list-style: none;
 }
+
+.contact-form-section {
+  gap: 3rem;
+}
+.contact-form-section picture {
+  border: 1px solid var(--color-text-light);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  padding: 2rem 3rem;
+
+  border: 1px solid var(--color-text-light);
+  border-radius: 10px;
+}
+.contact-form .row-elements-equal-size {
+  gap: 1rem;
+}
+.contact-form__message-wrapper {
+  flex: 1;
+}
+.contact-form__message {
+  height: 100%;
+}
+
+.input-with-label {
+  display: flex;
+  flex-direction: column;
+
+  gap: 0.5rem;
+}
