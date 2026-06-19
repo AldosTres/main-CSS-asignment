@@ -326,6 +326,14 @@
   padding: 2rem;
 }
 
+.picture-wrapper {
+  overflow: hidden;
+  width: 15rem;
+  height: 17.5rem;
+  border-radius: 2rem;
+  border: 2px solid var(--color-primary);
+}
+
 .name {
   text-align: center;
 }
@@ -334,11 +342,24 @@
   text-align: center;
 }
 
-.bio-picture {
-  width: 15rem;
-  height: 17.5rem;
-  border-radius: 2rem;
-  border: 2px solid var(--color-primary);
+.bio-picture-1 {
+  margin-top: -60px;
+  margin-left: -615px;
+}
+
+.bio-picture-2 {
+  margin-top: -50px;
+  margin-left: -645px;
+}
+
+.bio-picture-3 {
+  margin-top: -50px;
+  margin-left: -580px;
+}
+
+.bio-picture-4 {
+  margin-top: -50px;
+  margin-left: -640px;
 }
 
 .contact-icon {
