@@ -299,8 +299,14 @@
   display: flex;
   flex-direction: column;
 
+  align-items: center;
+
   gap: 5rem;
   padding: 2rem;
+
+  @media (max-width: 580px) {
+    gap: 8rem;
+  }
 }
 
 .bio-item {
@@ -309,6 +315,13 @@
   align-items: flex-start;
 
   gap: 4rem;
+
+  @media (max-width: 580px) {
+    flex-direction: column;
+    align-items: center;
+
+    gap: 1rem;
+  }
 }
 
 .bio {
@@ -319,13 +332,15 @@
 .bio-header {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .bio-text {
   justify-content: center;
   align-items: center;
   padding-top: 0.5rem;
+
+  max-width: 70ch;
 }
 
 .picture-wrapper {
@@ -351,6 +366,13 @@
   opacity: 0.7;
 
   font-size: var(--size-small);
+}
+
+.role,
+.name {
+  max-width: 15ch;
+  text-align: center;
+  hyphens: auto;
 }
 
 .contact-icon {
